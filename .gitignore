@@ -19,3 +19,7 @@ testem.log
 .idea
 .vscode
 coverage.json
+
+test.tar.gz
+tests/e2e/test-config.json
+tests/e2e/screenshots/diff
