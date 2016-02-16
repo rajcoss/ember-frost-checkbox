@@ -10,8 +10,8 @@
     "lint": "eslint .",
     "start": "ember server",
     "build": "ember build",
-    "e2e-test": "wdio-client remote_e2e_test 192.168.56.105:3000 dist tests/e2e",
-    "update-screenshots": "wdio-client update_screenshots",
+    "e2e-test": "wdio-client remote_e2e_test raphael.cyanoptics.com:3000 dist tests/e2e",
+    "update-screenshots": "wdio-client update_screenshots tests/e2e",
     "test": "npm run-script lint && ember test"
   },
   "repository": "git@github.com:ciena-frost/ember-frost-checkbox.git",
